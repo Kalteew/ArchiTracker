@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Use BASE_PATH (set in CI) to ensure assets resolve correctly on GitHub Pages.
+  base: process.env.BASE_PATH ?? '/',
   plugins: [
     vue(),
     vueDevTools(),
