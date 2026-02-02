@@ -17,6 +17,12 @@
     "title": "Dashboard",
     "subtitle": "Monitor your architecture programs in real time",
     "welcome": "Welcome",
+    "savedRooms": {
+      "title": "Your rooms",
+      "empty": "No room saved yet.",
+      "view": "View details",
+      "savedAt": "Saved on {date}"
+    },
     "stats": {
       "activeProjects": "Active projects",
       "resolvedAlerts": "Incidents resolved",
@@ -42,6 +48,50 @@
         "tech": "Technical",
         "site": "Site visit"
       }
+    }
+  },
+  "roomView": {
+    "title": "Room {code}",
+    "subtitle": "Live tracker overview",
+    "status": {
+      "lastActivity": "Last activity",
+      "port": "Last port",
+      "timeout": "Timeout (s)"
+    },
+    "checks": {
+      "title": "Players",
+      "slot": "Slot",
+      "player": "Player",
+      "state": "State",
+      "checks": "Checks",
+      "activity": "Activity",
+      "empty": "No players detected."
+    },
+    "hints": {
+      "title": "Hints",
+      "sender": "Sender",
+      "receiver": "Receiver",
+      "item": "Item",
+      "location": "Location",
+      "empty": "No hints yet."
+    },
+    "actions": {
+      "openTracker": "Open tracker",
+      "back": "Back to dashboard"
+    },
+    "errors": {
+      "notFound": "Room not found.",
+      "generic": "Unable to load room information."
+    }
+  },
+  "archipelago": {
+    "label": "Archipelago Room URL",
+    "helper": "Paste the full URL (https://archipelago.gg/room/...)",
+    "submit": "Save link",
+    "success": "Archipelago room saved successfully.",
+    "error": {
+      "invalid": "Please enter a valid archipelago.gg/room/ URL.",
+      "server": "We couldn’t save the link. Try again later."
     }
   },
   "common": {

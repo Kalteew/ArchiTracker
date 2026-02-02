@@ -17,6 +17,12 @@
     "title": "Tableau de bord",
     "subtitle": "Suivez vos projets architecturaux en temps réel",
     "welcome": "Bienvenue",
+    "savedRooms": {
+      "title": "Vos rooms enregistrées",
+      "empty": "Aucune room enregistrée pour l'instant.",
+      "view": "Consulter",
+      "savedAt": "Ajoutée le {date}"
+    },
     "stats": {
       "activeProjects": "Projets actifs",
       "resolvedAlerts": "Alertes résolues",
@@ -42,6 +48,50 @@
         "tech": "Technique",
         "site": "Chantier"
       }
+    }
+  },
+  "roomView": {
+    "title": "Room {code}",
+    "subtitle": "Suivi temps réel de l'activité",
+    "status": {
+      "lastActivity": "Dernière activité",
+      "port": "Dernier port",
+      "timeout": "Timeout (s)"
+    },
+    "checks": {
+      "title": "Participants",
+      "slot": "Slot",
+      "player": "Joueur",
+      "state": "Statut",
+      "checks": "Checks",
+      "activity": "Activité",
+      "empty": "Aucun participant détecté."
+    },
+    "hints": {
+      "title": "Indices",
+      "sender": "Expéditeur",
+      "receiver": "Destinataire",
+      "item": "Objet",
+      "location": "Localisation",
+      "empty": "Aucun indice pour le moment."
+    },
+    "actions": {
+      "openTracker": "Ouvrir le tracker",
+      "back": "Retour au dashboard"
+    },
+    "errors": {
+      "notFound": "Room introuvable.",
+      "generic": "Impossible de charger les informations de la room."
+    }
+  },
+  "archipelago": {
+    "label": "Archipelago Room URL",
+    "helper": "Collez l'URL complète (https://archipelago.gg/room/...)",
+    "submit": "Enregistrer le lien",
+    "success": "Lien Archipelago enregistré avec succès.",
+    "error": {
+      "invalid": "Veuillez saisir une URL archipelago.gg/room/ valide.",
+      "server": "Impossible d'enregistrer le lien pour le moment."
     }
   },
   "common": {

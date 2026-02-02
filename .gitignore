@@ -1,0 +1,9 @@
+ArchiTrackerBE/bin/
+ArchiTrackerBE/obj/
+ArchiTrackerBE/openapi.json
+ArchiTrackerBE/*.db
+ArchiTrackerBE/*.db-*
+ArchiTrackerBE/App_Data/architracker.db*
+
+.vs/
+
